@@ -1,3 +1,5 @@
 gato
 perro
 hamster
+Fideos
+arroz
