@@ -9,19 +9,123 @@
 </head>
 
 <body>
-    <h1>Hola XDXD</h1>
-    <H2>Hola XDXD</H2>
-    <H3>Hol XDXD</H3>
-    <H4>Hola XDXD</H4>
-    <H5>Hola XDXD</H5>
-    <H6>Hola XDXD</H6>
-    <p>Hola XDXDxd</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam impedit culpa at architecto magnam ex corrupti
-     quod odit expedita dolores voluptate nulla praesentium, voluptates beataeveniam quis ipsam quaerat sunt?</p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <!--DASDSA-->
-</body>
+    <!--  <ul>
+        <li>Inicio</li>
+        <li>Peliculas</li>
+        <li>Series</li>
+    </ul>
+    <div>
+        <h3>Animales fantásticos: los crímenes de Grindelwald</h3>
+        <img src="img/harry.jpg" alt="Animales Fantasticos">
+    </div>
+    <h3>Sonic 2, la película</h3>
+    <img src="img/sonic.jpg" alt="Sonic 2">
+    <h3>Uncharted: Fuera del mapa</h3>
+    <img src="img/uncharted.jpg" alt="uncharted">
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="red" />
+    </svg>
+    <div>
+        <h2>Peliculas</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nisi nam labore tenetur accusamus voluptate
+            libero laudantium quas maiores voluptatibus minima voluptatem ducimus necessitatibus, temporibus blanditiis
+            numquam suscipit? Ipsam, alias.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nisi nam labore tenetur accusamus voluptate
+            libero laudantium quas maiores voluptatibus minima voluptatem ducimus necessitatibus, temporibus blanditiis
+            numquam suscipit? Ipsam, alias.</p>
+    </div>
+    <nav>
+        <ul>
+            <li><a href=”/es/”>Inicio</a></li>
+            <li><a href=”/es/tutorials.html”>Tutoriales</a></li>
+            <li><a href=”/es/reference.html”>Referencia</a></li>
+            <li><a href=”/es/tolos-resources.html”>Recursos</a></li>
+            <li><a href=”/es/contactus.php”>Contáctame</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Tutoriales y Referencias HTML</h1>
+        <p>Este es un sitio web que está dedicado a proveer tutoriales y
+            referencias del lenguaje más básico de la web…</p>
+    </section>
+
+    <main>
+
+        <article>
+            <h1>Artículo 1</h1>
+            <p>Subtítulo 1</p>
+        </article>
+
+    </main>
+    <h1>El blog de maquillaje de Mary</h1>
+    <p>Veamos algunas de mis entradas más recientes...</p>
+
+    <article>
+        <header>
+            <h1>Uso de Vitamina C en el rostro</h1>
+            <p>Publicado <time pubdate datetime="2019-05-20T18:00-04:00">la semana pasada</time></p>
+        </header>
+        <p>Últimamente se ha demostrado que el ácido ascórbico puede hacer maravillas en nuestro rostro, ayuda
+            activamente en la producción de colágeno y es perfecto para usar en forma de serum justo antes de un buen
+            protector solar. </p>
+        <p>...</p>
+        <aside>
+            <p>Es importante que utilices la vitamina C con un grado de concentración adecuado para la sensibilidad de
+                tu piel, así evitarás daños...</p>
+        </aside>
+    </article>
+    <audio src="acdc.mp3" controls></audio>
+   <video src="tnt.mp4" poster="img/harry.jpg" controls></video> -->
+
+    <form action="" method="">
+
+        <label for="sexo">sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" value="hombre">
+                <label for="Hombre"></label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" value="mujer">
+                <label for="mujer"></label>
+            </li>
+        </ul>
+        <label for="hobbies"></label>
+        <ul>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="bailar" id="bailar" />
+                <label for="bailar">bailar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="nadar" id="nadar" />
+                <label for="nadar">nadar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="correr" id="correr" />
+                <label for="correr">correr</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="cantar" id="cantar" />
+                <label for="cantar">cantar</label>
+            </li>
+        </ul>
+        <p>
+            <label for="titulo">titulo</label>
+            <select name="titulo" id="">
+                <option value="primario">primario</option>
+                <option value="secundario">secundario</option>
+                <option value="terciario">terciario</option>
+                <option value="universitario">universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios">comentarios</label>
+            <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="enviar" />
+            <input type="reset" value="borrar" />
+        </p>
+    </form>
 
 </html>
