@@ -1,0 +1,20 @@
+h2{
+    font-size:medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: crimson;
+    background: fixed;
+}
+h1{
+    text-align: center;
+    color: #0400ec;
+    background-color: rgb(207, 169, 243);
+    width:auto;
+    max-height: max-content;
+    border: salmon;
+    margin-top: 0%;
+    border-color: magenta;
+
+}
+p{
+    color: aqua;
+}
