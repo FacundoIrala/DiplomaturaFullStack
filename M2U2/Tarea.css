@@ -1,0 +1,159 @@
+/* Primer ejercicio */
+.Contenedor {
+    background-color: white;
+    /* width: 600px; 
+     margin: 100px;
+     padding: 30px;
+     box-sizing: border-box;
+     height: 200px;
+     */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border-style: solid;
+}
+
+#rojo {
+    background-color: red;
+    width: 220px;
+    height: 220px;
+    margin: 0px;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#azul {
+    background-color: blue;
+    width: 220px;
+    height: 220px;
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#verde {
+    background-color: green;
+    width: 220px;
+    height: 220px;
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Segundo EJERCICIO */
+
+.Contenedor2 {
+    background-color: white;
+    height: 1000px;
+    /* width: 600px; 
+     margin: 100px;
+     padding: 30px;
+     box-sizing: border-box;
+     height: 200px;
+     */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+
+}
+
+#rojo2 {
+    background-color: red;
+    width: 220px;
+    height: 220px;
+    margin: 0px;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#azul2 {
+    background-color: blue;
+    width: 220px;
+    height: 220px;
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#verde2 {
+    background-color: green;
+    width: 220px;
+    height: 220px;
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tercer Ejercicio */
+
+.Contenedor3 {
+    background-color: white;
+    /* width: 600px; 
+     margin: 100px;
+     padding: 30px;
+     box-sizing: border-box;
+     height: 200px;
+     */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+
+}
+
+#rojo3 {
+    background-color: red;
+    width: 220px;
+    height: 220px;
+    margin: 0px;
+    font-size: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#azul3 {
+    background-color: blue;
+    width: 220px;
+    height: 220px;
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#verde3 {
+    background-color: green;
+    width: 220px;
+    height: 220px;
+    margin: 0px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
