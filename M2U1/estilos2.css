@@ -107,7 +107,7 @@ font-family: 'Tangerine', cursive;
      padding: 30px;
      text-align: center;
      font-size: 20px;
-     color: blac;
+     color: black;
      border-radius: 15px 20px 15px 25px;
      column-count: 2;
      column-gap: 20px;
@@ -116,4 +116,5 @@ font-family: 'Tangerine', cursive;
 
  .contact0{
      color: red;
+     border: 10px solid green;
  }
