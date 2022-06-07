@@ -203,7 +203,7 @@ p {
     /* animacion de titulos */
     .animacion {
         width: 10px;
-        height: 10px;
+        height: 15px;
         background-color: green;
 
         animation-name: hola;
@@ -221,13 +221,13 @@ p {
         }
 
         50% {
-            font-size: 5px;
+            font-size: 8px;
 
 
         }
 
         to {
-            font-size: 50%;
+            font-size: 70%;
             margin-left: 20%;
             width: 110%;
 
